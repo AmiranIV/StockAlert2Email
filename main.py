@@ -56,7 +56,7 @@ three_articles = articles[:3]
 formatted_articles = [f"{STOCK_NAME}:{up_down}{diff_precent}% Headline:{article['title']} Brief: {article['description']}" for article in three_articles]
 
 ####Email alert!!#####
-my_email = "EMAIL"
+my_email = "EMAIL@PROVIDER.COM"
 password = "PASSWORD"
 
 for article in formatted_articles:
